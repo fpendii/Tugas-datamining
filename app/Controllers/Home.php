@@ -40,10 +40,12 @@ class Home extends BaseController
     public function dashboard(){
         echo view('layout');
         echo "<h1>Ini Adalah tugas datamining semerter 3</h1>";
+        echo view("script");
     }
 
     public function knn(){
         echo view('layout');
         echo view('knn/index');
+        echo view("script");
     }
 }

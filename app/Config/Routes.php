@@ -13,4 +13,7 @@ $routes->get('/tambah-data', 'TambahDataController::index');
 $routes->post('/tambah-data', 'TambahDataController::index');
 $routes->post('/insert-data', 'TambahDataController::TambahData');
 $routes->post('/insert-data/(:segment)', 'TambahDataController::TambahData/$1');
+
+// Dataset
 $routes->post('/identifikasi', 'identifikasi::index');
+$routes->get('/dataset-kmean', 'Kmean::index');
